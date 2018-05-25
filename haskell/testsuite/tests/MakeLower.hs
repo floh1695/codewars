@@ -1,3 +1,5 @@
+module Test.MakeLower where
+
 import MakeLower
 import Test.Hspec
 import Test.QuickCheck
