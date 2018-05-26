@@ -3,7 +3,7 @@ module MakeLowerSpec where
 import MakeLower
 import Test.Hspec
 
-makeLowerSpec :: IO ()    -- This says that main is an IO action.
+makeLowerSpec :: IO ()
 makeLowerSpec = hspec $ do
   describe "The makeLowerCase function" $ do
     it "should work for some examples" $ do

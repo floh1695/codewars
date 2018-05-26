@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e69c31231274d772ead10c8bb0b56ec65627e9d964621901da5d5aeeffa7a01f
+-- hash: a5dca803d2b175ab545fe18a969ed00db22d5c7599228448d89fae9d14746906
 
 name:           codewars
 version:        0.1.0.0
@@ -26,6 +26,7 @@ source-repository head
 
 library
   exposed-modules:
+      AlternatingCase
       Lib
       MakeLower
   other-modules:
@@ -54,6 +55,7 @@ test-suite codewars-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      AlternatingCaseSpec
       MakeLowerSpec
       Paths_codewars
   hs-source-dirs:

@@ -1,6 +1,8 @@
-import MakeLowerSpec 
+import MakeLowerSpec
+import AlternatingCaseSpec
 
 main :: IO ()
-main = 
+main = do
     makeLowerSpec
+    alternatingCaseSpec
 
