@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a5dca803d2b175ab545fe18a969ed00db22d5c7599228448d89fae9d14746906
+-- hash: e8c0c8f3eb1830f7d8cb3da6e8b18d3ae18e97afc3a2a519a27cb5bfa185d4e8
 
 name:           codewars
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 library
   exposed-modules:
       AlternatingCase
+      GetAverage
       Lib
       MakeLower
   other-modules:
@@ -56,6 +57,7 @@ test-suite codewars-test
   main-is: Spec.hs
   other-modules:
       AlternatingCaseSpec
+      GetAverageSpec
       MakeLowerSpec
       Paths_codewars
   hs-source-dirs:
