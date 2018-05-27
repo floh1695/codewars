@@ -9,4 +9,3 @@ makeLowerSpec = hspec $ do
     it "should work for some examples" $ do
       makeLowerCase "HELLO" `shouldBe` "hello"
       makeLowerCase "WoRlD" `shouldBe` "world"
-

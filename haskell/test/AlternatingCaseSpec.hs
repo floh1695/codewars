@@ -28,4 +28,3 @@ alternatingCaseSpec = hspec $ describe "toAlternatingCase" $ do
   it "returns a string with the same length" $ do
     let l = length xs
     toAlternatingCase xs `shouldSatisfy` ((l ==) . length)
-
