@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e8c0c8f3eb1830f7d8cb3da6e8b18d3ae18e97afc3a2a519a27cb5bfa185d4e8
+-- hash: 2b15ea8a230904af27c72a1918d53a3eabbac3ffdeea3a9cfea2f822bc974cf0
 
 name:           codewars
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       GetAverage
       Lib
       MakeLower
+      PowersOfTwo
   other-modules:
       Paths_codewars
   hs-source-dirs:
@@ -59,6 +60,7 @@ test-suite codewars-test
       AlternatingCaseSpec
       GetAverageSpec
       MakeLowerSpec
+      PowersOfTwoSpec
       Paths_codewars
   hs-source-dirs:
       test
