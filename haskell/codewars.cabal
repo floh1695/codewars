@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5aca0c84e228c870a261cbc0e5d34cdb198ba7e387b55872092efc4709fde254
+-- hash: a4083f75064e1690e7542d160dfd4f0893aba7cd5ca2c98e15cba2e3743f3e30
 
 name:           codewars
 version:        0.1.0.0
@@ -35,6 +35,7 @@ library
       CodeWars.Kyu8.MakeLower
       CodeWars.Kyu8.PowersOfTwo
       Lib
+      Sum
   other-modules:
       Paths_codewars
   hs-source-dirs:
@@ -69,6 +70,7 @@ test-suite codewars-test
       CodeWars.Kyu8.LitresSpec
       CodeWars.Kyu8.MakeLowerSpec
       CodeWars.Kyu8.PowersOfTwoSpec
+      SumSpec
       Paths_codewars
   hs-source-dirs:
       test

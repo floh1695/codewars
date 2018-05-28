@@ -1,3 +1,4 @@
+import SumSpec
 import CodeWars.Kyu7.RemoveSmallestSpec
 import CodeWars.Kyu7.VowelSpec
 import CodeWars.Kyu8.AlternatingCaseSpec
@@ -9,6 +10,8 @@ import CodeWars.Kyu8.PowersOfTwoSpec
 
 main :: IO ()
 main = do
+  sumSpec
+
   removeSmallestSpec
   vowelSpec
 
