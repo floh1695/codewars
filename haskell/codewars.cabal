@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 18dd16c6d2e7543ecf883bfa92ca5d266fca228e7fed6d190471c39f06d4b7ea
+-- hash: f6f17b5826d6e78dd707350b5ecd5b1e4a9d101abb3d8661e27d6168091c7143
 
 name:           codewars
 version:        0.1.0.0
@@ -33,6 +33,7 @@ library
       MakeLower
       PowersOfTwo
       RemoveSmallest
+      Vowel
   other-modules:
       Paths_codewars
   hs-source-dirs:
@@ -65,6 +66,7 @@ test-suite codewars-test
       MakeLowerSpec
       PowersOfTwoSpec
       RemoveSmallestSpec
+      VowelSpec
       Paths_codewars
   hs-source-dirs:
       test

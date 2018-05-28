@@ -2,6 +2,7 @@ module RemoveSmallestSpec where
 
 import RemoveSmallest (removeSmallest)
 import Test.Hspec
+import Test.Hspec.QuickCheck
 
 removeSmallestSpec = hspec $ describe "removeSmallest" $ do
   it "works for the examples" $ do
@@ -11,8 +12,8 @@ removeSmallestSpec = hspec $ describe "removeSmallest" $ do
     removeSmallest [] `shouldBe` ([] :: [Int])
   
   -- it "returns [] if the list has only one element" $ property $ \x ->
-    -- removeSmallest [x] `shouldBe` ([] :: [Int])
+  --   removeSmallest [x] `shouldBe` ([] :: [Int])
     
   -- it "returns a list that misses only one element" $ property $ \(NonEmpty xs) ->
-    -- let l = length (xs :: [Int])
-    -- in length (removeSmallest xs) `shouldBe` l - 1  
+  --   let l = length (xs :: [Int])
+  --   in length (removeSmallest xs) `shouldBe` l - 1  

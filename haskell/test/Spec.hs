@@ -4,6 +4,7 @@ import GetAverageSpec
 import PowersOfTwoSpec
 import RemoveSmallestSpec
 import LitresSpec
+import VowelSpec
 
 main :: IO ()
 main = do
@@ -13,3 +14,4 @@ main = do
   powersOfTwoSpec
   removeSmallestSpec
   litresSpec
+  vowelSpec
