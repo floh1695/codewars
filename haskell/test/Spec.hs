@@ -2,6 +2,7 @@ import MakeLowerSpec
 import AlternatingCaseSpec
 import GetAverageSpec
 import PowersOfTwoSpec
+import RemoveSmallestSpec
 
 main :: IO ()
 main = do
@@ -9,3 +10,4 @@ main = do
   alternatingCaseSpec
   getAverageSpec
   powersOfTwoSpec
+  removeSmallestSpec

@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2b15ea8a230904af27c72a1918d53a3eabbac3ffdeea3a9cfea2f822bc974cf0
+-- hash: f223f92dadc65544d41b5e379a6cb0a1650b9913a01a346757761bf2cea5b733
 
 name:           codewars
 version:        0.1.0.0
@@ -31,6 +31,7 @@ library
       Lib
       MakeLower
       PowersOfTwo
+      RemoveSmallest
   other-modules:
       Paths_codewars
   hs-source-dirs:
@@ -61,6 +62,7 @@ test-suite codewars-test
       GetAverageSpec
       MakeLowerSpec
       PowersOfTwoSpec
+      RemoveSmallestSpec
       Paths_codewars
   hs-source-dirs:
       test
