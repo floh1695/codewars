@@ -1,4 +1,4 @@
-module Vowel where
+module CodeWars.Vowel where
 -- Vowel Count
 -- http://www.codewars.com/kata/vowel-count
 

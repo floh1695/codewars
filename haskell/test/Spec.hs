@@ -1,11 +1,11 @@
-import MakeLowerSpec
-import AlternatingCaseSpec
-import GetAverageSpec
-import PowersOfTwoSpec
-import RemoveSmallestSpec
-import LitresSpec
-import VowelSpec
-import DoubleCharSpec
+import CodeWars.MakeLowerSpec
+import CodeWars.AlternatingCaseSpec
+import CodeWars.GetAverageSpec
+import CodeWars.PowersOfTwoSpec
+import CodeWars.RemoveSmallestSpec
+import CodeWars.LitresSpec
+import CodeWars.VowelSpec
+import CodeWars.DoubleCharSpec
 
 main :: IO ()
 main = do

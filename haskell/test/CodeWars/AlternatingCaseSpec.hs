@@ -1,6 +1,6 @@
-module AlternatingCaseSpec where
+module CodeWars.AlternatingCaseSpec where
 
-import AlternatingCase
+import CodeWars.AlternatingCase
 import Test.Hspec
 
 alternatingCaseSpec :: IO ()

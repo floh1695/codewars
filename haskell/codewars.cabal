@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9dd4f5ffa5fc528fb440649be8c7432d60c7f1142cc769cecc788c93973c74e6
+-- hash: cdd4620d00512aae3b7827b72377b57424802e9b3f6d66caddfe5d70167791f2
 
 name:           codewars
 version:        0.1.0.0
@@ -26,15 +26,15 @@ source-repository head
 
 library
   exposed-modules:
-      AlternatingCase
-      DoubleChar
-      GetAverage
+      CodeWars.AlternatingCase
+      CodeWars.DoubleChar
+      CodeWars.GetAverage
+      CodeWars.Litres
+      CodeWars.MakeLower
+      CodeWars.PowersOfTwo
+      CodeWars.RemoveSmallest
+      CodeWars.Vowel
       Lib
-      Litres
-      MakeLower
-      PowersOfTwo
-      RemoveSmallest
-      Vowel
   other-modules:
       Paths_codewars
   hs-source-dirs:
@@ -61,14 +61,14 @@ test-suite codewars-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      AlternatingCaseSpec
-      DoubleCharSpec
-      GetAverageSpec
-      LitresSpec
-      MakeLowerSpec
-      PowersOfTwoSpec
-      RemoveSmallestSpec
-      VowelSpec
+      CodeWars.AlternatingCaseSpec
+      CodeWars.DoubleCharSpec
+      CodeWars.GetAverageSpec
+      CodeWars.LitresSpec
+      CodeWars.MakeLowerSpec
+      CodeWars.PowersOfTwoSpec
+      CodeWars.RemoveSmallestSpec
+      CodeWars.VowelSpec
       Paths_codewars
   hs-source-dirs:
       test

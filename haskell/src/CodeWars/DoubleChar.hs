@@ -1,4 +1,4 @@
-module DoubleChar where
+module CodeWars.DoubleChar where
 -- Double Char
 -- http://www.codewars.com/kata/double-char
 

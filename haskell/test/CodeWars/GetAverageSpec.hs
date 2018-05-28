@@ -1,6 +1,6 @@
-module GetAverageSpec where
+module CodeWars.GetAverageSpec where
 
-import GetAverage
+import CodeWars.GetAverage
 import Test.Hspec
 
 getAverageSpec :: IO ()

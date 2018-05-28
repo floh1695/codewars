@@ -1,6 +1,6 @@
-module DoubleCharSpec (doubleCharSpec) where
+module CodeWars.DoubleCharSpec (doubleCharSpec) where
 
-import DoubleChar (doubleChar)
+import CodeWars.DoubleChar (doubleChar)
 import Test.Hspec
 
 doubleCharSpec = hspec $ do

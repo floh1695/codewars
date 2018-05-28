@@ -1,6 +1,6 @@
-module RemoveSmallestSpec where
+module CodeWars.RemoveSmallestSpec where
 
-import RemoveSmallest (removeSmallest)
+import CodeWars.RemoveSmallest (removeSmallest)
 import Test.Hspec
 import Test.Hspec.QuickCheck
 
