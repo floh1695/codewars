@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cdd4620d00512aae3b7827b72377b57424802e9b3f6d66caddfe5d70167791f2
+-- hash: 5aca0c84e228c870a261cbc0e5d34cdb198ba7e387b55872092efc4709fde254
 
 name:           codewars
 version:        0.1.0.0
@@ -26,14 +26,14 @@ source-repository head
 
 library
   exposed-modules:
-      CodeWars.AlternatingCase
-      CodeWars.DoubleChar
-      CodeWars.GetAverage
-      CodeWars.Litres
-      CodeWars.MakeLower
-      CodeWars.PowersOfTwo
-      CodeWars.RemoveSmallest
-      CodeWars.Vowel
+      CodeWars.Kyu7.RemoveSmallest
+      CodeWars.Kyu7.Vowel
+      CodeWars.Kyu8.AlternatingCase
+      CodeWars.Kyu8.DoubleChar
+      CodeWars.Kyu8.GetAverage
+      CodeWars.Kyu8.Litres
+      CodeWars.Kyu8.MakeLower
+      CodeWars.Kyu8.PowersOfTwo
       Lib
   other-modules:
       Paths_codewars
@@ -61,14 +61,14 @@ test-suite codewars-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      CodeWars.AlternatingCaseSpec
-      CodeWars.DoubleCharSpec
-      CodeWars.GetAverageSpec
-      CodeWars.LitresSpec
-      CodeWars.MakeLowerSpec
-      CodeWars.PowersOfTwoSpec
-      CodeWars.RemoveSmallestSpec
-      CodeWars.VowelSpec
+      CodeWars.Kyu7.RemoveSmallestSpec
+      CodeWars.Kyu7.VowelSpec
+      CodeWars.Kyu8.AlternatingCaseSpec
+      CodeWars.Kyu8.DoubleCharSpec
+      CodeWars.Kyu8.GetAverageSpec
+      CodeWars.Kyu8.LitresSpec
+      CodeWars.Kyu8.MakeLowerSpec
+      CodeWars.Kyu8.PowersOfTwoSpec
       Paths_codewars
   hs-source-dirs:
       test

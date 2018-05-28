@@ -1,6 +1,6 @@
-module CodeWars.PowersOfTwoSpec where
+module CodeWars.Kyu8.PowersOfTwoSpec where
 
-import CodeWars.PowersOfTwo
+import CodeWars.Kyu8.PowersOfTwo
 import Test.Hspec
 
 powersOfTwoSpec = hspec $ do

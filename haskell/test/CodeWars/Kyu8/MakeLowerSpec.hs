@@ -1,6 +1,6 @@
-module CodeWars.MakeLowerSpec where
+module CodeWars.Kyu8.MakeLowerSpec where
 
-import CodeWars.MakeLower
+import CodeWars.Kyu8.MakeLower
 import Test.Hspec
 
 makeLowerSpec :: IO ()

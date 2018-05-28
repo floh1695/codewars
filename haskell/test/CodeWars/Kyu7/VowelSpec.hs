@@ -1,6 +1,6 @@
-module CodeWars.VowelSpec where
+module CodeWars.Kyu7.VowelSpec where
 
-import CodeWars.Vowel (getCount)
+import CodeWars.Kyu7.Vowel (getCount)
 import Test.Hspec
   
 vowelSpec = hspec $ do

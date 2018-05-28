@@ -1,4 +1,4 @@
-module CodeWars.AlternatingCase where
+module CodeWars.Kyu8.AlternatingCase where
 -- altERnaTIng cAsE <=> ALTerNAtiNG CaSe
 -- https://www.codewars.com/kata/alternating-case-%3C-equals-%3E-alternating-case
 

@@ -1,4 +1,4 @@
-module CodeWars.PowersOfTwo where
+module CodeWars.Kyu8.PowersOfTwo where
 -- Powers of 2
 -- https://www.codewars.com/kata/powers-of-2
 

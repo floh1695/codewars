@@ -1,4 +1,4 @@
-module CodeWars.Litres where
+module CodeWars.Kyu8.Litres where
 -- Keep Hydrated!
 -- http://www.codewars.com/kata/keep-hydrated-1
 

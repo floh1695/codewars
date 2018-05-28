@@ -1,4 +1,4 @@
-module CodeWars.MakeLower where
+module CodeWars.Kyu8.MakeLower where
 -- MakeLowerCase
 -- https://www.codewars.com/kata/makelowercase
 

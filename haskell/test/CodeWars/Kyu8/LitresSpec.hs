@@ -1,6 +1,6 @@
-module CodeWars.LitresSpec where
+module CodeWars.Kyu8.LitresSpec where
 
-import CodeWars.Litres
+import CodeWars.Kyu8.Litres
 import Test.Hspec
 -- import Test.Hspec.QuickCheck
 

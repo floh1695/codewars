@@ -1,4 +1,4 @@
-module CodeWars.RemoveSmallest where
+module CodeWars.Kyu7.RemoveSmallest where
 -- Remove the minimum
 -- http://www.codewars.com/kata/remove-the-minimum
 
