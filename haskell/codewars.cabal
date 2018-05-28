@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f6f17b5826d6e78dd707350b5ecd5b1e4a9d101abb3d8661e27d6168091c7143
+-- hash: 9dd4f5ffa5fc528fb440649be8c7432d60c7f1142cc769cecc788c93973c74e6
 
 name:           codewars
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 library
   exposed-modules:
       AlternatingCase
+      DoubleChar
       GetAverage
       Lib
       Litres
@@ -61,6 +62,7 @@ test-suite codewars-test
   main-is: Spec.hs
   other-modules:
       AlternatingCaseSpec
+      DoubleCharSpec
       GetAverageSpec
       LitresSpec
       MakeLowerSpec

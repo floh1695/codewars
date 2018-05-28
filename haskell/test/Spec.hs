@@ -5,6 +5,7 @@ import PowersOfTwoSpec
 import RemoveSmallestSpec
 import LitresSpec
 import VowelSpec
+import DoubleCharSpec
 
 main :: IO ()
 main = do
@@ -15,3 +16,4 @@ main = do
   removeSmallestSpec
   litresSpec
   vowelSpec
+  doubleCharSpec
