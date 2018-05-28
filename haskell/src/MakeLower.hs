@@ -1,6 +1,6 @@
 module MakeLower where
 -- MakeLowerCase
--- https://www.codewars.com/kata/makelowercase/train/haskell
+-- https://www.codewars.com/kata/makelowercase
 
 import Data.Char
 

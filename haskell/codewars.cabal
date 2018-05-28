@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f223f92dadc65544d41b5e379a6cb0a1650b9913a01a346757761bf2cea5b733
+-- hash: 18dd16c6d2e7543ecf883bfa92ca5d266fca228e7fed6d190471c39f06d4b7ea
 
 name:           codewars
 version:        0.1.0.0
@@ -29,6 +29,7 @@ library
       AlternatingCase
       GetAverage
       Lib
+      Litres
       MakeLower
       PowersOfTwo
       RemoveSmallest
@@ -60,6 +61,7 @@ test-suite codewars-test
   other-modules:
       AlternatingCaseSpec
       GetAverageSpec
+      LitresSpec
       MakeLowerSpec
       PowersOfTwoSpec
       RemoveSmallestSpec

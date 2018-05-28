@@ -3,6 +3,7 @@ import AlternatingCaseSpec
 import GetAverageSpec
 import PowersOfTwoSpec
 import RemoveSmallestSpec
+import LitresSpec
 
 main :: IO ()
 main = do
@@ -11,3 +12,4 @@ main = do
   getAverageSpec
   powersOfTwoSpec
   removeSmallestSpec
+  litresSpec
