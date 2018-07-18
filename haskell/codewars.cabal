@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9f82c0832df5a7e6fba91876e0e732103bbf2d174e1e6e48bac4be86cf9299a1
+-- hash: 24d2df9d91cd01861b7a9d3b71fd0efab1d4c399f4d1dc2e842a64f6883b739a
 
 name:           codewars
 version:        0.1.0.0
@@ -26,6 +26,7 @@ source-repository head
 
 library
   exposed-modules:
+      BrainFuck.BrainFuck
       CodeWars.Kyu7.RemoveSmallest
       CodeWars.Kyu7.Vowel
       CodeWars.Kyu8.AlternatingCase
